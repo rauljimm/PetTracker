@@ -1,0 +1,44 @@
+<resources>
+    <!-- Tema base de la aplicación -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryVariant</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="android:statusBarColor">@color/primaryVariant</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+    <!-- Estilo para TextInputLayout -->
+    <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/primaryColor</item>
+        <item name="hintTextColor">@color/primaryVariant</item>
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <!-- Estilo para botones -->
+    <style name="ButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/primaryColor</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:padding">12dp</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <!-- Estilo para títulos -->
+    <style name="TitleTextStyle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/primaryVariant</item>
+        <item name="android:paddingBottom">16dp</item>
+    </style>
+
+    <!-- Estilo para subtítulos -->
+    <style name="SubtitleTextStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/primaryColor</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+</resources>

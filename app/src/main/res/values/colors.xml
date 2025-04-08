@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#32B146</color> <!-- Azul profesional -->
+    <color name="primaryVariant">#3D9F30</color> <!-- Azul oscuro -->
+    <color name="secondaryColor">#FF4081</color> <!-- Rosa como acento -->
+    <color name="gray">#757575</color> <!-- Gris para hints -->
+</resources>
